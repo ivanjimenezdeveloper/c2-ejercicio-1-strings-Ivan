@@ -1,3 +1,6 @@
-let a = "prueba";
-let b = "prueba 2";
-let c = "prueba 3";
+let nombre = "ivan";
+let nombreFormado;
+
+nombreFormado = nombre[0].toUpperCase() + nombre.substring(1);
+
+console.log(nombreFormado);
